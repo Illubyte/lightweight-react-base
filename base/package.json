@@ -1,0 +1,51 @@
+{
+  "name": "lightweight-react-base",
+  "version": "1.0.0",
+  "description": "Dockerized ReactJS base utilizing Typescript, Parcel, PostCSS, ESLint, and Tailwind",
+  "license": "MIT",
+  "author": "Illubyte Studios",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "start": "parcel serve ./src/index.html -p 4440 --no-hmr",
+    "start:hmr": "parcel serve ./src/index.html -p 4440",
+    "eslint-fix": " ./node_modules/.bin/eslint --fix ."
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "2.0.0-nightly.616",
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.616",
+    "@parcel/packager-css": "2.0.0-nightly.616",
+    "@parcel/packager-html": "2.0.0-nightly.616",
+    "@parcel/transformer-css": "2.0.0-nightly.616",
+    "@parcel/transformer-html": "2.0.0-nightly.616",
+    "@parcel/transformer-postcss": "2.0.0-nightly.616",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.616",
+    "@parcel/transformer-sass": "2.0.0-nightly.616",
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "autoprefixer": "^10.2.4",
+    "eslint": "^7.17.0",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-react": "^7.22.0",
+    "parcel": "^2.0.0-beta.1",
+    "postcss": "^8.2.6",
+    "postcss-import": "^14.0.0",
+    "postcss-modules": "^4.0.0",
+    "sass": "^1.32.8",
+    "tailwindcss": "^2.0.3",
+    "typescript": "^4.2.2"
+  }
+}

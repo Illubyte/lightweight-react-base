@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "postcss-import": {},
+    "autoprefixer": {
+      "grid": true
+    },
+    "tailwindcss": {}
+  }
+}
