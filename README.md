@@ -1,10 +1,10 @@
-## About
+About
 ------------
 
 Lightweight React Base is a pre-configured dockerization of ReactJS, Typescript, Parcel, PostCSS, ESLint, and Tailwind. With docker-compose installed, you can very quickly and easily use this distribution to generate the foundation of your web app / website.
 
 
-### Usage
+Usage
 ------------
 
 **Using docker-compose**
@@ -71,7 +71,7 @@ command: 'yarn start:hmr'
 > Documentation in progress
 
 
-### Requirements
+Requirements
 ------------
 
   - Docker / Docker-compose
