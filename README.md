@@ -105,6 +105,8 @@ Note that this is a function of Tailwind. You can do tree-shaking with PostCSS a
 
 The entry to your app is defaulted to `./src/index.html`. If you wish to change this, you can modify the commands in your `package.json` file.
 
+Note that this is also not a typo, within the container, the file path is `/srv/app/src/src/index.html`.
+
 Requirements
 ------------
 
